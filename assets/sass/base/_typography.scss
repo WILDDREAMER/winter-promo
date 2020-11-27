@@ -1,0 +1,173 @@
+/*=== Import Fonts ===*/
+@include font-face($font-primary-light, $font-primary-light-path);
+@include font-face($font-primary-semibold, $font-primary-semibold-path);
+@include font-face($font-primary-bold, $font-primary-bold-path);
+
+
+/*=== Typography Styling ===*/
+body {
+	font-style: normal;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: normal;
+}
+
+h1 {
+		font-family: $font-primary-light;
+		font-size: $font-size-xl;
+		font-weight: 300;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.23;
+		letter-spacing: normal;
+		text-align: left;
+		color: #ffffff;
+	}
+	h2 {
+		font-family: $font-primary-light;
+		font-size: $font-size-lg;
+		font-weight: 300;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.78;
+		letter-spacing: normal;
+		text-align: center;
+		color: #333333;
+	}
+	h3 {
+		font-family: $font-primary-light;
+		font-size: $font-size-lg;
+		font-weight: 300;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1;
+		letter-spacing: normal;
+		text-align: center;
+		color: #ffffff;
+	}
+	h4 {
+		font-family: $font-primary-light;
+		font-size: $font-size-lg;
+		font-weight: 300;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1;
+		letter-spacing: normal;
+		text-align: center;
+		color: #333333;
+	}
+	h5 {
+		font-family: $font-primary-semibold;
+		font-size: $font-size-re;
+		font-weight: 600;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1;
+		letter-spacing: normal;
+		text-align: center;
+		color: #000000;
+	}
+	p {
+		&.xl{
+			font-family: $font-primary-light;
+			font-size: $font-size-md;
+			font-weight: 300;
+			font-stretch: normal;
+			font-style: normal;
+			line-height: normal;
+			letter-spacing: normal;
+			text-align: left;
+			color: #ffffff;
+		}
+		&.lg{
+			font-family: $font-primary-semibold;
+			font-size: $font-size-re;
+			font-weight: 600;
+			font-stretch: normal;
+			font-style: normal;
+			line-height: 1;
+			letter-spacing: normal;
+			text-align: left;
+			color: #000000;
+		}
+		&.md{
+			font-family: $font-primary-light;
+			font-size: $font-size-sm;
+			font-weight: 300;
+			font-stretch: normal;
+			font-style: normal;
+			line-height: normal;
+			letter-spacing: normal;
+			text-align: center;
+			color: #000000;
+		}
+		&.re{
+			font-family: $font-primary-light;
+			font-size: 16px;
+			font-weight: 300;
+			font-stretch: normal;
+			font-style: normal;
+			line-height: 1.25;
+			letter-spacing: normal;
+			text-align: center;
+			color: #000000;
+		}
+		&.date{
+			font-family: $font-primary-bold;
+			font-size: 15px;
+			font-weight: bold;
+			font-stretch: normal;
+			font-style: normal;
+			line-height: 1.33;
+			letter-spacing: normal;
+			text-align: left;
+			color: #eb5757;
+		}
+		&.sm{
+			font-family: $font-primary-light;
+			font-size: 14px;
+			font-weight: 300;
+			font-stretch: normal;
+			font-style: normal;
+			line-height: 1.43;
+			letter-spacing: normal;
+			text-align: left;
+			color: #000000;
+		}
+	}
+	button{
+		&.middle{
+			font-family: $font-primary-bold;
+			font-size: 17px;
+			font-weight: bold;
+			font-stretch: normal;
+			font-style: normal;
+			line-height: 1;
+			letter-spacing: normal;
+			text-align: center;
+			color: #ffffff;
+		}
+		&.header{
+			font-family: $font-primary-bold;
+			font-size: 15px;
+			font-weight: bold;
+			font-stretch: normal;
+			font-style: normal;
+			line-height: 1;
+			letter-spacing: normal;
+			text-align: center;
+			color: #ffffff;
+		}
+		&.super{
+			font-family: $font-primary-bold;
+			font-size: 15px;
+			font-weight: bold;
+			font-stretch: normal;
+			font-style: normal;
+			line-height: normal;
+			letter-spacing: normal;
+			text-align: center;
+			color: #ffffff;
+		}
+	}
+	@include for-size(phone-only) {}

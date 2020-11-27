@@ -1,0 +1,37 @@
+// Primary Color
+$color-primary-1: rgba(235, 87, 87, 1);
+$color-primary-2: linear-gradient(267.63deg, #0A6F97 0%, #032532 99.81%);
+
+//Font sizes
+$font-size-xl: 60px;
+$font-size-lg: 45px;
+$font-size-md: 22px;
+$font-size-re: 20px;
+$font-size-sm: 18px;
+$font-size-xs: 15px;
+
+// Font Names
+$font-primary: "OpenSans";
+//==================================//
+// Don't miss with those variabeles //
+//==================================//
+
+// Breakpoint
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+// Black & White
+$color-black: #000000;
+$color-white: #ffffff;
+
+//Font Path
+$font-primary-light-path: "../fonts/" + $font-primary + "/" + $font-primary + "-Light.ttf";
+$font-primary-semibold-path: "../fonts/" + $font-primary + "/" + $font-primary + "-Semibold.ttf";
+$font-primary-bold-path: "../fonts/" + $font-primary + "/" + $font-primary + "-Bold.ttf";
+
+//Font Family
+$font-primary-light: $font-primary + " Light";
+$font-primary-semibold: $font-primary + " SemiBold";
+$font-primary-bold: $font-primary + " Bold";
