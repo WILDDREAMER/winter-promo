@@ -3014,7 +3014,7 @@ button.super { font-family: "OpenSans Bold"; font-size: 15px; font-weight: bold;
 
 .funktionierts h2 { margin-top: 72px; margin-bottom: 69px; }
 
-.funktionierts .articles { padding: 10px; }
+.funktionierts .articles { margin: 0px; padding: 10px; width: 100%; }
 
 .funktionierts .articles .item { display: flex; flex-direction: column; justify-content: center; align-items: center; margin-bottom: 40px; }
 
@@ -3022,7 +3022,7 @@ button.super { font-family: "OpenSans Bold"; font-size: 15px; font-weight: bold;
 
 .funktionierts .articles .item h5 { margin-bottom: 10px; }
 
-.funktionierts .articles .item p { max-width: 350px; }
+.funktionierts .articles .item p { max-width: 250px; }
 
 @media (max-width: 576px) { .funktionierts h2 { font-size: 25px; } }
 
@@ -3041,7 +3041,7 @@ button.super { font-family: "OpenSans Bold"; font-size: 15px; font-weight: bold;
 
 .unsere .articles { display: flex; flex-direction: row; justify-content: center; align-items: center; }
 
-@media (min-width: 1000px) { .unsere .articles button { margin-top: 45px; }
+@media (min-width: 900px) { .unsere .articles button { margin-top: 45px; }
   .unsere .articles .image { border-bottom: 2px solid black; margin-bottom: 25px; width: 100%; }
   .unsere .articles .image img { width: 100%; } }
 

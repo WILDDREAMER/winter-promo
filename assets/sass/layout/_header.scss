@@ -200,7 +200,9 @@
         margin-bottom: 69px;
     }
     .articles{
+        margin: 0px;
         padding: 10px;
+        width: 100%;
         .item{
             @include flex(column,center,center);
             .icon{
@@ -210,7 +212,7 @@
                 margin-bottom: 10px;
             }
             p{
-                max-width: 350px;
+                max-width: 250px;
             }
             margin-bottom: 40px;
         }
@@ -249,7 +251,7 @@
     padding-left: 5%;
     padding-right: 5%;
     .articles{
-        @media(min-width: 1000px){
+        @media(min-width: 900px){
             button{
                 margin-top: 45px;
             }
