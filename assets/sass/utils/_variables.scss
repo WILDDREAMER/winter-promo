@@ -30,8 +30,10 @@ $color-white: #ffffff;
 $font-primary-light-path: "../fonts/" + $font-primary + "/" + $font-primary + "-Light.ttf";
 $font-primary-semibold-path: "../fonts/" + $font-primary + "/" + $font-primary + "-Semibold.ttf";
 $font-primary-bold-path: "../fonts/" + $font-primary + "/" + $font-primary + "-Bold.ttf";
+$font-primary-extrabold-path: "../fonts/" + $font-primary + "/" + $font-primary + "-ExtraBold.ttf";
 
 //Font Family
 $font-primary-light: $font-primary + " Light";
 $font-primary-semibold: $font-primary + " SemiBold";
 $font-primary-bold: $font-primary + " Bold";
+$font-primary-extrabold: $font-primary + " ExtraBold";

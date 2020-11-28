@@ -2912,6 +2912,8 @@ textarea { overflow: auto; /* 1 */ vertical-align: top; /* 2 */ }
 
 @font-face { font-family: "OpenSans Bold"; src: url("../fonts/OpenSans/OpenSans-Bold.ttf") format("truetype"); }
 
+@font-face { font-family: "OpenSans ExtraBold"; src: url("../fonts/OpenSans/OpenSans-ExtraBold.ttf") format("truetype"); }
+
 /*=== Typography Styling ===*/
 body { font-style: normal; font-weight: normal; font-stretch: normal; letter-spacing: normal; }
 
@@ -2922,6 +2924,8 @@ h2 { font-family: "OpenSans Light"; font-size: 38.25px; font-weight: 300; font-s
 h3 { font-family: "OpenSans Light"; font-size: 38.25px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: 1; letter-spacing: normal; text-align: center; color: #ffffff; }
 
 h4 { font-family: "OpenSans Light"; font-size: 38.25px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: 1; letter-spacing: normal; text-align: center; color: #333333; }
+
+h4 span { font-weight: 800; font-style: "OpenSans ExtraBold"; font-stretch: normal; font-style: normal; line-height: 1; letter-spacing: normal; text-align: center; color: #333333; }
 
 h5 { font-family: "OpenSans SemiBold"; font-size: 17px; font-weight: 600; font-stretch: normal; font-style: normal; line-height: 1; letter-spacing: normal; text-align: center; color: #000000; }
 
@@ -2942,6 +2946,8 @@ button.middle { font-family: "OpenSans Bold"; font-size: 17px; font-weight: bold
 button.header { font-family: "OpenSans Bold"; font-size: 15px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: 1; letter-spacing: normal; text-align: center; color: #ffffff; }
 
 button.super { font-family: "OpenSans Bold"; font-size: 15px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: center; color: #ffffff; }
+
+.container { max-width: 1440px; }
 
 .section-header { display: flex; flex-direction: column; justify-content: center; align-items: center; background-image: url("/assets/img/backgrounds/section-1/Hero_background.svg"); background-attachment: fixed; background-repeat: no-repeat; background-size: contain; }
 
@@ -3005,4 +3011,92 @@ button.super { font-family: "OpenSans Bold"; font-size: 15px; font-weight: bold;
 
 @media (max-width: 576px) { .section-header { min-height: 335px; background-size: cover; }
   .section-header .picture { display: none; } }
+
+.funktionierts h2 { margin-top: 72px; margin-bottom: 69px; }
+
+.funktionierts .articles { display: flex; flex-direction: row; justify-content: center; align-items: flex-start; }
+
+.funktionierts .articles .item { display: flex; flex-direction: column; justify-content: center; align-items: center; height: 298px; max-width: 260px; }
+
+.funktionierts .articles .item:not(:last-child) { margin-right: 30px; }
+
+.funktionierts .articles .item .icon { flex: 2; margin-bottom: 42px; text-align: center; }
+
+.funktionierts .articles .item h5 { flex: 1; margin-bottom: 15px; }
+
+.funktionierts .articles .item p { flex: 2; }
+
+@media (max-width: 800px) { .funktionierts h2 { font-size: 25px; }
+  .funktionierts .articles { display: flex; flex-direction: row; justify-content: center; align-items: flex-start; padding-left: 6%; padding-right: 6%; }
+  .funktionierts .articles .item { margin-bottom: 22px; display: flex; flex-direction: column; justify-content: flex-start; align-items: center; }
+  .funktionierts .articles .item:not(:last-child) { margin-right: 0px; }
+  .funktionierts .articles .item .icon { flex: 5; margin-bottom: 10px; text-align: center; }
+  .funktionierts .articles .item h5 { font-size: 15px; flex: 5; margin-bottom: -15px; }
+  .funktionierts .articles .item p { font-size: 12px; flex: 6; } }
+
+@media (max-width: 1137px) and (min-width: 700px) { .funktionierts .articles { margin: 0px; padding-left: 8%; padding-right: 8%; }
+  .funktionierts .articles .item { margin: 0px; width: 40% !important; margin: 20px; }
+  .funktionierts .articles .item:nth-child(odd) { margin-right: 15%; } }
+
+.also { display: flex; flex-direction: row; justify-content: center; align-items: center; background: linear-gradient(267.63deg, #0A6F97 0%, #032532 99.81%); height: 136px; margin-bottom: 25px !important; }
+
+@media (max-width: 768px) { .also { height: 100px; }
+  .also h3 { font-size: 25px; } }
+
+@media (max-width: 992px) { .also { height: 110px; }
+  .also h3 { font-size: 25px; } }
+
+@media (max-width: 576px) { .also { height: 100px; }
+  .also h3 { font-size: 20px; } }
+
+.unsere { display: flex; }
+
+.unsere .articles { display: flex; flex-direction: row; justify-content: center; align-items: center; }
+
+@media (min-width: 994px) { .unsere .articles .image { border-bottom: 2px solid black; margin-bottom: 25px; width: 100%; }
+  .unsere .articles .image img { width: 100%; } }
+
+.unsere .articles .item { text-align: center; }
+
+.unsere .articles .item .image { border-bottom: 2px solid black; margin-bottom: 25px; }
+
+.unsere .articles .item p.sm { height: 150px; }
+
+.unsere .articles button { width: 100%; height: 60px; background-color: #eb5757; margin-bottom: 60px; }
+
+@media (max-width: 576px) { .unsere .item .image { border-bottom: 2px solid black; margin-bottom: 25px; }
+  .unsere .item p.sm { height: 100px !important; margin-bottom: 25px; } }
+
+.oder { background: #eb5757; display: flex; flex-direction: row; justify-content: center; align-items: center; height: 136px; }
+
+@media (max-width: 768px) { .oder { height: 100px; }
+  .oder h4 { font-size: 25px; } }
+
+@media (max-width: 992px) { .oder { height: 110px; }
+  .oder h4 { font-size: 25px; } }
+
+@media (max-width: 576px) { .oder { height: 100px; }
+  .oder h4 { font-size: 16px; } }
+
+.Super-Adventsangebote .text { display: flex; flex-direction: column; justify-content: center; align-items: center; }
+
+.Super-Adventsangebote .text h2 { margin-top: 32px; margin-bottom: 24px; }
+
+.Super-Adventsangebote .text button { width: 286px; background: #eb5757; height: 60px; margin-top: 25px; margin-bottom: 50px; }
+
+.Super-Adventsangebote .text p { max-width: 875px; }
+
+.Super-Adventsangebote .days { margin-right: -30px; display: flex; flex-direction: row; justify-content: center; align-items: center; flex-wrap: wrap; }
+
+.Super-Adventsangebote .days button { width: 20%; margin-bottom: 30px; margin-right: 30px; }
+
+.Super-Adventsangebote .days button img { width: 100%; }
+
+@media (max-width: 1024px) { .Super-Adventsangebote .days button { width: 25%; } }
+
+@media (max-width: 576px) { .Super-Adventsangebote .days button { width: 80%; } }
+
+footer { display: flex; flex-direction: row; justify-content: center; align-items: center; height: 90px; }
+
+footer p { margin-bottom: 0px; }
 /*# sourceMappingURL=style.css.map */
