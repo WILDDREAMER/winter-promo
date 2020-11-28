@@ -2915,21 +2915,21 @@ textarea { overflow: auto; /* 1 */ vertical-align: top; /* 2 */ }
 /*=== Typography Styling ===*/
 body { font-style: normal; font-weight: normal; font-stretch: normal; letter-spacing: normal; }
 
-h1 { font-family: "OpenSans Light"; font-size: 60px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: 1.23; letter-spacing: normal; text-align: left; color: #ffffff; }
+h1 { font-family: "OpenSans Light"; font-size: 55.25px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: 1.23; letter-spacing: normal; text-align: left; color: #ffffff; }
 
-h2 { font-family: "OpenSans Light"; font-size: 45px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: 1.78; letter-spacing: normal; text-align: center; color: #333333; }
+h2 { font-family: "OpenSans Light"; font-size: 38.25px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: 1.78; letter-spacing: normal; text-align: center; color: #333333; }
 
-h3 { font-family: "OpenSans Light"; font-size: 45px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: 1; letter-spacing: normal; text-align: center; color: #ffffff; }
+h3 { font-family: "OpenSans Light"; font-size: 38.25px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: 1; letter-spacing: normal; text-align: center; color: #ffffff; }
 
-h4 { font-family: "OpenSans Light"; font-size: 45px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: 1; letter-spacing: normal; text-align: center; color: #333333; }
+h4 { font-family: "OpenSans Light"; font-size: 38.25px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: 1; letter-spacing: normal; text-align: center; color: #333333; }
 
-h5 { font-family: "OpenSans SemiBold"; font-size: 20px; font-weight: 600; font-stretch: normal; font-style: normal; line-height: 1; letter-spacing: normal; text-align: center; color: #000000; }
+h5 { font-family: "OpenSans SemiBold"; font-size: 17px; font-weight: 600; font-stretch: normal; font-style: normal; line-height: 1; letter-spacing: normal; text-align: center; color: #000000; }
 
-p.xl { font-family: "OpenSans Light"; font-size: 22px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #ffffff; }
+p.xl { font-family: "OpenSans Light"; font-size: 18.7px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: left; color: #ffffff; }
 
-p.lg { font-family: "OpenSans SemiBold"; font-size: 20px; font-weight: 600; font-stretch: normal; font-style: normal; line-height: 1; letter-spacing: normal; text-align: left; color: #000000; }
+p.lg { font-family: "OpenSans SemiBold"; font-size: 17px; font-weight: 600; font-stretch: normal; font-style: normal; line-height: 1; letter-spacing: normal; text-align: left; color: #000000; }
 
-p.md { font-family: "OpenSans Light"; font-size: 18px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: center; color: #000000; }
+p.md { font-family: "OpenSans Light"; font-size: 15.3px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: center; color: #000000; }
 
 p.re { font-family: "OpenSans Light"; font-size: 16px; font-weight: 300; font-stretch: normal; font-style: normal; line-height: 1.25; letter-spacing: normal; text-align: center; color: #000000; }
 
@@ -2943,25 +2943,66 @@ button.header { font-family: "OpenSans Bold"; font-size: 15px; font-weight: bold
 
 button.super { font-family: "OpenSans Bold"; font-size: 15px; font-weight: bold; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; text-align: center; color: #ffffff; }
 
-.section-header { display: flex; flex-direction: column; justify-content: center; align-items: center; height: 650px; background-image: url("/assets/img/backgrounds/section-1/Hero_background.svg"); background-attachment: fixed; background-repeat: no-repeat; background-size: contain; }
+.section-header { display: flex; flex-direction: column; justify-content: center; align-items: center; background-image: url("/assets/img/backgrounds/section-1/Hero_background.svg"); background-attachment: fixed; background-repeat: no-repeat; background-size: contain; }
 
 .section-header * { padding: 0; margin: 0; }
 
 .section-header .container { max-width: 1440px; }
 
-.section-header .section-content { display: flex; flex-direction: row; justify-content: center; align-items: center; }
+.section-header .section-content { display: flex; flex-direction: row; justify-content: space-evenly; align-items: center; }
 
-.section-header .left-side { flex: 10; }
+.section-header .left-side { display: flex; flex-direction: column; justify-content: center; align-items: flex-start; width: 550px; }
 
-.section-header .left-side * { margin-bottom: 18px; }
+.section-header .left-side h1 { margin-bottom: 18px; }
 
-.section-header button { width: 254px; height: 60px; background-color: #eb5757; }
+.section-header .left-side p { margin-bottom: 27px; }
 
-.section-header .buttons { width: 93%; display: flex; flex-direction: row; justify-content: space-between; align-items: center; }
+.section-header .left-side button { width: 235px; height: 60px; background-color: #eb5757; }
 
-.section-header .logo { margin-left: -12px; background: url("/assets/img/logo/Super_Vereint_Logo.svg") center no-repeat; width: 426.76px; height: 50px; }
+.section-header .left-side .buttons { width: 93%; display: flex; flex-direction: row; justify-content: space-between; align-items: center; margin-bottom: 37px; }
 
-.section-header .picture { flex: 12; margin-left: -30px; }
+.section-header .left-side .logo { margin-left: -12px; background: url("/assets/img/logo/Super_Vereint_Logo.svg") center no-repeat; width: 426.76px; height: 50px; }
 
-.section-header .picture img { width: 90%; height: 90%; }
+.section-header .picture { display: flex; flex-direction: row; justify-content: center; align-items: center; width: 592.672px; margin-right: -55px; }
+
+.section-header .picture img { width: 100%; height: 100%; }
+
+@media (max-width: 1200px) { .section-header { padding-top: 35px; min-height: 400px; }
+  .section-header .left-side { width: 500px; }
+  .section-header .left-side h1 { order: 2; font-size: 30px; margin-bottom: 10px; }
+  .section-header .left-side p { font-size: 16px; margin-bottom: 13px; }
+  .section-header .left-side p.top { order: 3; }
+  .section-header .left-side p.bottom { order: 5; }
+  .section-header .left-side .buttons { order: 4; margin-bottom: 16px; }
+  .section-header .left-side button { width: 180px; font-size: 12px; }
+  .section-header .left-side .logo { margin-bottom: 20px; order: 1; width: 400px; height: 50px; }
+  .section-header .picture { width: 400px; }
+  .section-header .picture img { width: 100%; height: 100%; } }
+
+@media (max-width: 992px) { .section-header { padding-top: 35px; min-height: 365px; }
+  .section-header .left-side { width: 400px; }
+  .section-header .left-side h1 { order: 2; font-size: 25px; margin-bottom: 10px; }
+  .section-header .left-side p { font-size: 12px; }
+  .section-header .left-side p.top { margin-bottom: 10px; }
+  .section-header .left-side p.bottom { margin-bottom: 15px; }
+  .section-header .left-side .buttons { order: 4; margin-bottom: 14px; }
+  .section-header .left-side button { width: 160px; height: 45px; font-size: 10px; }
+  .section-header .left-side .logo { order: 1; width: 410px; height: 50px; }
+  .section-header .picture { width: 40%; margin-right: 0px; }
+  .section-header .picture img { width: 100%; height: 100%; } }
+
+@media (max-width: 768px) { .section-header { padding-top: 30px; min-height: 335px; background-size: cover; }
+  .section-header .left-side { width: 300px; }
+  .section-header .left-side h1 { order: 2; font-size: 20px; margin-bottom: 10px; }
+  .section-header .left-side p { font-size: 10px; }
+  .section-header .left-side p.top { margin-bottom: 10px; }
+  .section-header .left-side p.bottom { margin-bottom: 15px; }
+  .section-header .left-side .buttons { order: 4; margin-bottom: 14px; }
+  .section-header .left-side button { width: 120px; height: 40px; font-size: 8px; }
+  .section-header .left-side .logo { order: 1; width: 300px; height: 50px; background-size: 100%; }
+  .section-header .picture { width: 40%; margin-right: 0px; }
+  .section-header .picture img { width: 120%; height: 100%; } }
+
+@media (max-width: 576px) { .section-header { min-height: 335px; background-size: cover; }
+  .section-header .picture { display: none; } }
 /*# sourceMappingURL=style.css.map */
